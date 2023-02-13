@@ -1,0 +1,153 @@
+#searchbox {
+    margin-left: 85px;
+    width: 550px;
+    font-size: 17px;
+    /* border-radius: 25px; */
+    height: 36px;
+    padding-left: 10px;
+    border: 1px solid gray
+    ;
+    margin-top: 8px;
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: gray;
+    border-bottom: gray;
+    z-index: 10;
+}
+
+.right {
+    margin-top: 15px;
+
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+.middle {
+    /* margin-top: 15px; */
+    margin-left: 180px;
+    margin-right: 70px;
+    /* background-color: brown; */
+    align-items: center;
+    display: flex;
+    flex: 1;
+    max-width: 900px;
+}
+
+.left {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    /* background-color :red; */
+
+}
+
+.hm {
+    height: 24px;
+    cursor: pointer;
+}
+
+.yl {
+    margin-left: 20px;
+    height: 24px;
+}
+
+.src {
+    height: 24px;
+}
+
+.btn {
+    /* margin-top: 5px; */
+    /* margin-top: 8px; */
+    height: 40px;
+    width: 60px;
+    margin-right: 18px;
+    margin-left: -61px;
+    border-top-right-radius: 0px 15px;
+    border: none;
+    background-color: rgb(253, 248, 248);
+    border: 1px solid gray;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.btn1 {
+    margin-top: 8px;
+    height: 36px;
+    width: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(253, 248, 248);
+    cursor: pointer;
+    /* border: 1px solid gray */
+}
+#search-btn{
+    height: 25px;
+}
+.btn:hover{
+    background-color: rgb(244, 238, 238);
+
+}
+.btn1:hover{
+    background-color: rgb(244, 238, 238);
+
+}
+.upl{
+    height:30px;
+    cursor: pointer;
+}
+/* .upl:hover{
+    background-color: rgb(244, 238, 238);
+    height: 30px;
+    border-radius: 30px;
+} */
+.ya{
+    height: 30px;
+    cursor: pointer;
+}
+.ntf{
+    height: 30px;
+    cursor: pointer;
+}
+.pp{
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    top:80px;
+    left:0px;
+    bottom: 0px;
+    width: 120px;
+}
+
+.sidebar-link{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: rgb(244, 238, 238);
+    border-radius: 4px;
+}
+.sidebar-link img{
+    height: 24px;
+}
